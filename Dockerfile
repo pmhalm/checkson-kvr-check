@@ -11,4 +11,4 @@ RUN npm install --production
 
 COPY . .
 
-ENTRYPOINT [ "node", "server.js" ]
+ENTRYPOINT [ "node", "index.js" ]
